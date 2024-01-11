@@ -1,0 +1,51 @@
+/* Reset de estilos para quitar márgenes y rellenos predeterminados */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+/* Estilos personalizados */
+
+body {
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.navbar {
+    border-bottom: 2px solid #007bff; /* Color del borde inferior del navbar */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem; /* Tamaño de la fuente del logo o nombre */
+}
+
+.navbar-nav .nav-link {
+    color: #343a40; /* Color del texto del enlace del navbar */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Color del texto del enlace del navbar al pasar el ratón */
+}
+
+.container h1 {
+    font-size: 3rem; /* Tamaño de la fuente del título principal */
+    color: #007bff; /* Color del texto del título principal */
+}
+
+footer {
+    margin-bottom: 100px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+@media (max-width: 767px) {
+    footer {
+        padding: 10px 0;
+    }
+}
