@@ -38,14 +38,23 @@ header {
     color: #007bff; /* Color del texto del título principal */
 }
 
+main {
+
+    flex: 1; /* Esto hace que el contenido principal ocupe el espacio disponible en el contenedor flex */
+}
+
 footer {
-    margin-bottom: 100px;
+    margin-bottom: auto;
     background-color: #343a40;
     color: white;
     padding: 20px 0;
 }
+
 @media (max-width: 767px) {
     footer {
         padding: 10px 0;
     }
 }
+/* Resto de los estilos */
+
+
